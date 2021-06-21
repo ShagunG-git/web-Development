@@ -1,0 +1,10 @@
+SUP{
+    color:red;
+}
+.one{
+    padding:6px
+}
+.one:hover{
+    border-color: #66CCCC;
+    
+}

@@ -1,0 +1,33 @@
+
+H3{
+    color:#0A5A78;
+
+}
+p{
+    color:#4C4C4C
+}
+#one{
+    color:white;
+    background-color: red;
+    font-size: 12px ;
+    text-align:center;
+    height: 30px;
+    width: 330px;
+    
+}
+
+mark{
+    background-color:#EEB500 ;
+    color: white;
+    
+}
+td{
+    vertical-align: top;
+}
+img{
+    height: 400px;
+    width: 350px;
+}
+
+    
+   

@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+    <HEAD>
+        <TITLE>
+            Form
+        </TITLE>
+        <LINK REL='STYLESHEET' HREF='HTML asg3_css.css' />
+    </HEAD>
+    <body>
+        <h1>   Zoo Keeper Application Form </h1>
+        <em> Please complete the form. Mandatory
+            fields are marked with a <SUP>*</SUP>
+        </em>
+        <br/>
+        <br/>
+
+
+        <FIELDSET>
+            <LEGEND><STRONG>
+                CONTACT DETAILS
+            </STRONG></LEGEND>
+            <FORM novalidate>
+
+                <TABLE CELLPADDING = '6' WIDTH='500'>
+                    <TR>
+                        <TD>
+                          <label for = 'name'>Name <SUP>*</SUP></label>
+                        </TD>
+                        <TD> <INPUT TYPE='TEXT' id='name'/></TD>
+                    </TR>
+                    <TR>
+                        <TD>
+                            <label for = 'telephone'>Telephone</label>
+                        </TD>
+                        <TD> <INPUT TYPE='TEL' id='telephone'/></TD>
+                    </TR>
+                    <TR>
+                        <TD>
+                            <label for='email'> Email <SUP>*</SUP></label>
+                        </TD>
+                        <TD>
+                            <INPUT TYPE = 'EMAIL' id='email'/>
+                        </TD>
+                    </TR>
+                </TABLE>
+
+            </FORM>
+        </FIELDSET>
+            <br/>
+
+        <FIELDSET>
+            <LEGEND><STRONG>
+                PERSONAL INFORMATION
+            </STRONG></LEGEND>
+            <FORM >
+                <TABLE CELLPADDING = '6' WIDTH='500'>
+                    <TR>
+                        <TD>
+                            <label for='age'><SUP>*</SUP>Age
+                                </label>
+                        </TD>
+                        <TD>
+                            <INPUT TYPE = "number" ID='age'/>
+                        </TD>
+                    </TR>
+                    <TR>
+                        <TD>
+                            <label for='gender'>Gender</label>
+                        </TD>
+                        <TD>
+                            <SELECT>
+                                <OPTION>
+                                    Female
+                                </OPTION>
+                                <OPTION>
+                                    Male
+                                </OPTION>
+                            </SELECT>
+                        </TD>
+                    </TR>
+                    <TR>
+                        <TD><label for='when'>When did you</br> first know you </br>wanted to be a </br>Zoo-keeper?</label></TD>
+                        <TD>
+                            <TEXTAREA rows='5'cols='25' id='when'></TEXTAREA>
+                        </TD>
+                    </TR>
+                </TABLE>
+            </FORM>
+        </FIELDSET>
+    </br>
+        <FIELDSET>
+            <LEGEND><STRONG>
+                    PICK YOUR FAVORITE ANIMALS
+                </STRONG></LEGEND>
+                <FORM >
+            <TABLE CELLPADDING = '6' WIDTH='500'>
+                <TR>
+                    <TD>
+                        <INPUT TYPE='checkbox' ID='Zebra' VALUE='Zebra' NAME='Zebra'/>
+                        <LABEL  FOR='Zebra'>Zebra</LABEL>
+                    </TD>
+                    <TD>
+                        <INPUT TYPE='checkbox' ID='cat' VALUE='cat' NAME='cat'/>
+                        <LABEL  FOR='cat'>Cat</LABEL>
+                    </TD>
+                    <TD>
+                        <INPUT TYPE='checkbox' ID='Anaconda' VALUE='Anaconda' NAME='Anaconda'/>
+                        <LABEL  FOR='Anaconda'>Anaconda</LABEL>
+                    </TD>
+                    <TD>
+                        <INPUT TYPE='checkbox' ID='human' VALUE='human' NAME='human'/>
+                        <LABEL  FOR='human'>Human</LABEL>
+                    </TD>
+                </TR>
+                <TR>
+                    <TD>
+                        <INPUT TYPE='checkbox' ID='Elephant' VALUE='Elephant' NAME='Elephant'/>
+                        <LABEL  FOR='Elephant'>Elephant</LABEL>
+                    </TD>
+                    <TD>
+                        <INPUT TYPE='checkbox' ID='wildebeest' VALUE='wildebeest' NAME='wildebeest'/>
+                        <LABEL  FOR='wildebeest'>Wildebeest</LABEL>
+                    </TD>
+                    <TD>
+                        <INPUT TYPE='checkbox' ID='Pigeon' VALUE='Pigeon' NAME='Pigeon'/>
+                        <LABEL  FOR='Pigeon'>Pigeon</LABEL>
+                    </TD>
+                    <TD>
+                        <INPUT TYPE='checkbox' ID='Crab' VALUE='Crab' NAME='Crab' />
+                        <LABEL  FOR='Crab'>Crab</LABEL>
+                    </TD>
+                </TR>
+
+            </TABLE>
+
+        </FORM>
+        </FIELDSET>
+
+    </br>
+
+            <INPUT class="one" TYPE='SUBMIT' VALUE='Submit Application' />
+
+
+
+    </body>
+</html>
